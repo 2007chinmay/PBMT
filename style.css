@@ -50,3 +50,13 @@ body {
 .highlight {
   background: #fff3cd;
 }
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+}
