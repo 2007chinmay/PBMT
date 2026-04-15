@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>New Job - PBMT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <button onclick="goTo('index.html')">←</button>
+  <h2>Add Job</h2>
+</div>
+
+<div class="container">
+
+  <input placeholder="Product Name" id="productName">
+
+  <input placeholder="Client Name" id="clientName">
+
+  <label>Received Date</label>
+  <input type="date" id="receivedDate">
+
+  <label>Work Done Date</label>
+  <input type="date" id="workDoneDate">
+
+  <textarea placeholder="Description" id="description"></textarea>
+
+  <div class="grid">
+    <input type="number" placeholder="Quantity" id="quantity">
+    <input type="number" placeholder="Price" id="price">
+  </div>
+
+  <div class="card">
+    <p>Total</p>
+    <h2 id="total">₹0</h2>
+  </div>
+
+  <textarea placeholder="Notes" id="notes"></textarea>
+
+  <button class="btn primary" onclick="saveJob()">Save Job</button>
+
+</div>
+
+<script src="script.js"></script>
+<script src="newjob.js"></script>
+
+</body>
+</html>
