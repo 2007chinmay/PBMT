@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PBMT Records</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <button onclick="goTo('index.html')">← Back</button>
+  <h2>Records</h2>
+  <button onclick="goTo('new-job.html')">+ Add</button>
+</div>
+
+<div class="container">
+
+  <input type="text" id="search" placeholder="Search..." oninput="renderJobs()">
+
+  <div id="jobList"></div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="records.js"></script>
+
+</body>
+</html>
