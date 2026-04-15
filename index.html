@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PBMT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <p class="sub">Precision Bore Mill Tech</p>
+  <h1>PBMT</h1>
+  <p id="date"></p>
+</div>
+
+<div class="container">
+
+  <div class="grid">
+    <button onclick="goTo('new-job.html')" class="btn primary">+ New Job</button>
+    <button onclick="goTo('records.html')" class="btn outline">📁 Records</button>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <p>Total Jobs</p>
+      <h2 id="totalJobs">0</h2>
+    </div>
+
+    <div class="card highlight">
+      <p>This Month</p>
+      <h2 id="monthly">₹0</h2>
+      <small id="jobCount">0 jobs</small>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
